@@ -1,7 +1,8 @@
 {
   "name": "jdt-express-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "My custom express application boilerplate",
+  "repository": "https://github.com/JackDTaylor/jdt-express-boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
