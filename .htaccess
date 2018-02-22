@@ -1,0 +1,8 @@
+allow from all
+PassengerNodejs  /home/e/edsmusar/.local/bin/node
+PassengerAppRoot /home/e/edsmusar/crm.1eds.ru/public_html/utils/todo/application/
+PassengerAppType node
+PassengerStartupFile backend.min.js
+PassengerHighPerformance off
+
+RewriteEngine Off
