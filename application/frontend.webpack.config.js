@@ -1,4 +1,4 @@
-const globalModules = `/home/e/edsmusar/.local/lib/node_modules`;
+const globalModules = `/path/to/node_modules`;
 const baseDir = __dirname;
 const webpack = require(`webpack`);
 const path = require('path');
