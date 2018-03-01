@@ -1,11 +1,8 @@
-const globalModules = `/path/to/node_modules`;
 const baseDir = __dirname;
+const globalModules = baseDir + `/node_modules`;
 const webpack = require(`webpack`);
 const path = require('path');
 const fs = require('fs');
-
-// let bPlugin = (name) => `${globalModules}/babel-plugin-${name}`;
-// let bPreset = (name) => `${globalModules}/babel-preset-${name}`;
 
 module.exports = {
 	entry: `${baseDir}/frontend.jsx`,
