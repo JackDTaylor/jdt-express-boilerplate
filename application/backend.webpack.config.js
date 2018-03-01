@@ -1,5 +1,5 @@
-const globalModules = `/path/to/node_modules`;
 const baseDir = __dirname;
+const globalModules = baseDir + `/node_modules`;
 const webpack = require(`webpack`);
 const path = require('path');
 const fs = require('fs');
